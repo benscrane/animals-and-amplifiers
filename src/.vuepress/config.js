@@ -3,7 +3,8 @@ module.exports = {
     description: 'A portfolio site for Ben Crane',
     themeConfig: {
         nav: [
-            { text: 'About', link: '/about/index.html'}
+            { text: 'About', link: '/about/index.html'},
+            { text: 'Blog', link: '/blog/index.html'}
         ]
     },
     markdown: {
