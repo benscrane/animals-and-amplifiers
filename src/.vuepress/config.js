@@ -5,5 +5,8 @@ module.exports = {
         nav: [
             { text: 'About', link: '/about/index.html'}
         ]
+    },
+    markdown: {
+        lineNumbers: true
     }
 }
