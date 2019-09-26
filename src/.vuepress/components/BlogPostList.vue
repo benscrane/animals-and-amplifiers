@@ -30,6 +30,14 @@ export default {
 
 <template>
     <div>
-        {{ filteredList }}
+        <ul>
+            <li v-for="(item, index) in filteredList">
+                <BlogPostPreview
+                    :excerpt="item.frontmatter.excerpt"
+                    :path="item.path"
+                    :title="item.frontmatter.title"
+                    :publishDate="item.frontmatter.date" />
+            </li>
+        </ul>
     </div>
 </template>
