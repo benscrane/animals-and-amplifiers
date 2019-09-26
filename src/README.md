@@ -1,6 +1,7 @@
 ---
-title: "Ben Crane"
-home: true
+title: Ben Crane
+home: false
+layout: HomeLayout
 ---
 
-<TestComponent />
+<HomeHero />
