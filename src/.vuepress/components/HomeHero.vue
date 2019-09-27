@@ -21,10 +21,10 @@
     align-items: center;
 }
 .name {
-    color: darkorange
+    color: #c94e2c;
 }
 .sliding-vertical {
-    color: darkgreen;
+    color: #076843;
     display: inline;
     text-indent: 0.3em;
 }
