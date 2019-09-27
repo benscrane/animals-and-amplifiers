@@ -20,7 +20,7 @@ export default {
                         if (shouldPublish) {
                             return item;
                         }
-                    })
+                    }).sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
                 }
             }
         }
@@ -30,8 +30,11 @@ export default {
 
 <template>
     <div>
-        <ul>
-            <li v-for="(item, index) in filteredList">
+        <h1>Blog Posts</h1>
+        <h2>Most Recent</h2>
+        <ul class="blog-list">
+            <li v-for="(item, index) in filteredList"
+                class="blog-list-item">
                 <BlogPostPreview
                     :excerpt="item.frontmatter.excerpt"
                     :path="item.path"
@@ -41,3 +44,13 @@ export default {
         </ul>
     </div>
 </template>
+
+<style scoped>
+.blog-list {
+    padding: 0;
+    margin: 0;
+}
+.blog-list-item {
+    list-style-type: none;
+}
+</style>

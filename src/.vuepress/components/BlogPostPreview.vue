@@ -39,7 +39,13 @@ export default {
         <h2>
             <a :href="path">{{ title }}</a>
         </h2>
-        <p v-if="excerpt" {{ excerpt }}</p>
+        <p v-if="excerpt">{{ excerpt }}</p>
         <a :href="path">Read More</a>
     </section>
 </template>
+
+<style scoped>
+section {
+    margin: 1em 0;
+}
+</style>
