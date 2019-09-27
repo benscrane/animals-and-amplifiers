@@ -1,7 +1,7 @@
 <template>
     <main class="hero-container">
         <h1>
-            Hello, I'm <span class="name">Ben Crane</span><br/>
+            Hello, I'm <span class="name">Ben Crane</span>.<br/>
             I build <div class="sliding-vertical">
                 <span>websites.</span>
                 <span>web apps.</span>
@@ -9,16 +9,24 @@
                 <span>furniture.</span>
             </div>
         </h1>
+        <div class="button-container">
+            <a href="/blog/"><button>Blog</button></a>
+            <a href="/"><button>Work</button></a>
+            <a href="/contact/"><button>Contact</button></a>
+        </div>
     </main>
 </template>
 
-<style scoped>
+<style lang=stylus scoped>
 .hero-container {
     height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.link-button {
+    
 }
 .name {
     color: #c94e2c;
