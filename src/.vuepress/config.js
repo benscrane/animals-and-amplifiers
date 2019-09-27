@@ -4,9 +4,10 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: 'Home', link: '/'},
-            { text: 'Blog', link: '/blog/index.html'},
-            { text: 'About', link: '/about/index.html'},
-            { text: 'Contact', link: '/contact/index.html'}
+            { text: 'Blog', link: '/blog/'},
+            { text: 'Projects', link: '/projects/'},
+            { text: 'About', link: '/about/'},
+            { text: 'Contact', link: '/contact/'}
         ]
     },
     markdown: {

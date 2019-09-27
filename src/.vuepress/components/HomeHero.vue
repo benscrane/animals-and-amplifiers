@@ -11,7 +11,7 @@
         </h1>
         <div class="button-container">
             <a href="/blog/"><button>Blog</button></a>
-            <a href="/"><button>Work</button></a>
+            <a href="/projects/"><button>Projects</button></a>
             <a href="/contact/"><button>Contact</button></a>
         </div>
     </main>
@@ -25,14 +25,24 @@
     justify-content: center;
     align-items: center;
 }
-.link-button {
-    
+.button-container a button {
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid $greenColor;
+    padding: 0.25em;
+    margin: 0.5em;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: $greenColor;
+}
+.button-container a button:hover {
+    background: $greenColor;
+    color: white;
 }
 .name {
-    color: #c94e2c;
+    color: $orangeColor;
 }
 .sliding-vertical {
-    color: #076843;
+    color: $greenColor;
     display: inline;
     text-indent: 0.3em;
 }
