@@ -9,3 +9,9 @@ excerpt: We have awesome dogs
 1. Look at them
 2. Again
 
+### Python code sample
+```
+def play_dice():
+    if playing_ennio:
+        win()
+```
