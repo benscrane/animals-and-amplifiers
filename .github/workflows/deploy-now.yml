@@ -21,9 +21,7 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v1
       - name: Deploy on Zeit - Prod
-        env:
-          ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
-        run: now --prod
+        run: now --prod --token=${{ secrets.ZEIT_TOKEN }}
 
   deploy:
     name: Deploy
@@ -32,6 +30,4 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v1
       - name: Deploy on Zeit
-        env:
-          ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
-        run: now
+        run: now --token=${{ secrets.ZEIT_TOKEN }}
