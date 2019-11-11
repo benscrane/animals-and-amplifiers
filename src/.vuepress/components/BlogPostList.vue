@@ -39,7 +39,8 @@ export default {
                     :excerpt="item.frontmatter.excerpt"
                     :path="item.path"
                     :title="item.frontmatter.title"
-                    :publishDate="item.frontmatter.date" />
+                    :publishDate="item.frontmatter.date"
+                    :author="item.frontmatter.author" />
             </li>
         </ul>
     </div>

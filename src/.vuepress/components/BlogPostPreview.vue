@@ -17,6 +17,10 @@ export default {
         excerpt: {
             type: String,
             required: false
+        },
+        author: {
+            type: String,
+            required: false
         }
     },
     computed: {
@@ -39,6 +43,7 @@ export default {
         <h2>
             <a :href="path">{{ title }}</a>
         </h2>
+        <p id="author" v-if="author">{{ author }}</p>
         <p v-if="excerpt">{{ excerpt }}</p>
         <a class="button" :href="path">Read More ></a>
     </section>
@@ -81,5 +86,8 @@ h2 a:hover {
     background-color: $greenColor;
     color: #fff;
     text-decoration: none !important;
+}
+#author {
+    font-style: italic; 
 }
 </style>
