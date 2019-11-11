@@ -2,7 +2,7 @@
 home: true
 heroImage: /hero.png
 heroText: Animals and Amplifiers
-heroTagline: An exploration of our human nature and our superhuman tools
+tagline: An exploration of our human nature and our superhuman tools
 footer: The Firm © 2019
 actionText: Learn More
 actionLink: /blog/
