@@ -1,11 +1,14 @@
 {
-  "name": "vuepress",
+  "name": "animals-and-amplifiers",
   "version": "1.0.0",
-  "description": "Ben Crane's Portfolio",
+  "description": "Blog",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
   },
   "author": "Ben Crane",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.2.0"
+  }
 }
