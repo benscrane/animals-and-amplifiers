@@ -1,6 +1,6 @@
 module.exports = {
     title: 'Animals and Amplifiers',
-    description: 'An exploration of our human nature and superhuman tools',
+    description: 'An exploration of our human nature and our superhuman tools',
     dest: 'public/',
     themeConfig: {
         nav: [
