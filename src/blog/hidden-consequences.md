@@ -1,6 +1,6 @@
 ---
 title: Hidden Consequences
-date: 2019-11-20 00:00:00
+date: 2019-11-20 10:00:00
 excerpt: How our tools hide the real impact of our actions from us.
 author: Ben Crane
 ---

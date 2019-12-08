@@ -1,6 +1,6 @@
 ---
 title: Foot Protection
-date: 2019-12-07 00:00:00
+date: 2019-12-07 10:00:00
 excerpt: How clothing insulates us.
 author: Seamus Crane
 ---

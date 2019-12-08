@@ -40,6 +40,7 @@ export default {
 <template>
     <section>
         <time>{{ formatPublishDate }}</time>
+        <p>{{ this.$options.propsData.publishDate }}</p>
         <h2>
             <a :href="path">{{ title }}</a>
         </h2>
