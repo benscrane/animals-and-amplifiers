@@ -1,6 +1,9 @@
 
 name: Deploy to Now
-on: [push]
+on:
+  push:
+    branches: 
+      - master
 
 jobs:
   publish:
@@ -10,4 +13,4 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v1
       - name: Deploy on Zeit - Prod
-        run: now --prod --token=${{ secrets.ZEIT_TOKEN }}
+        run: now --confirm --prod --token=${{ secrets.ZEIT_TOKEN }}
