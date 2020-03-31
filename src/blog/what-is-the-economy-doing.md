@@ -31,10 +31,10 @@ We can do a lot better than a raw number of jobs added and the stock indices to 
 
 In addition to better use of metrics to track how the economy is actually doing, we need to pay more attention to what the economy is doing.
 
-Is it just consilating more money in the back accounts that already have it or is it making the average citizen more financially stable and able to weather future global curveballs like COVID-19.  I have a hunch that we'll see more and more such curveballs so it seems foolish to not do what we can to be better prepared.
+Is it just consolidating more money in the bank accounts that already have it or is it making the average citizen more financially stable and able to weather future global curveballs like COVID-19?  I have a hunch that we'll see more and more such curveballs so it seems foolish to not do what we can to be better prepared.
 
 Where is our rocket ship pointed?  Those rocket engines can be working perfectly whether the rocket is pointed into space or into the side of a mountain but those are clearly very different outcomes.
 
-None of the ideas above are particularly new, they've been around for a while.  Yet all talk about the economy still seems to be focused on *how* it's doing.
+None of the ideas above are particularly new, they've been around for a while.  Yet all the talk about the economy still seems to be focused on *how* it's doing.
 
 Unless we're prepared to say that economy is a tool that we have no control over, we need to start asking *what* is the economy doing?
