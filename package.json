@@ -9,6 +9,6 @@
   "author": "Ben Crane",
   "license": "ISC",
   "devDependencies": {
-    "vuepress": "^1.2.0"
+    "vuepress": "^1.8.2"
   }
 }
